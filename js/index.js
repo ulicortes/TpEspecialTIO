@@ -1,3 +1,5 @@
+"user strict";
+
 let boton_uno = document.querySelector('#btn1');
 
 const fecha = new Date();
@@ -6,13 +8,13 @@ boton_uno.addEventListener('click', () => {
     alert(fecha);
 })
 
+let jugador = document.querySelector("#jugador");
+let bt = document.querySelector("#botonjugador");
+bt.addEventListener("click", sortearjugador);
 let jugadores =["Mesi", "Ronaldo", "Mbape"];
- 
-let btn = document.querySelector("#btn-jugador");
-btn.addEventListener("click", sortearjugador);
-
 
 function sortearjugador(){
+    jugador.innerHTML="";
   num = Math.floor(Math.random()*(jugadores.length));
-    console.log(jugadores[num]);      
+   jugador.innerHTML=jugadores[num];
 }
