@@ -1,0 +1,107 @@
+
+h1 {
+    font-style: italic;
+    color: red;
+    border: 5px solid black;
+    border-radius: 100px;
+    width: 500px;
+    margin-left: 32%;
+    font-size: 200%;
+    
+}
+h2 {
+    font-size: 180%;
+}
+h3{
+    font-size: 160%;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+footer{
+    border: 5px solid black;
+}
+input{
+    color: red;
+    width: 100px;
+}
+img{
+    margin: 5px;
+}
+ul{
+    border: 5px solid rgb(208, 255, 0);
+    background-color: red;
+    margin: 5px;
+    padding-left: 0px;
+    
+}
+ul:hover{
+    background-color: pink;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    background-color: blue;   
+}
+
+.barra{
+    text-decoration: none;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticia {
+    font-size: 20px;
+    text-decoration: none;
+    border: 5px dashed blue;
+    padding: 10px;
+}
+
+.noticia:hover{
+    background-color: rgb(15, 228, 22);
+}
+
+.resumen{
+    border: 2px solid blue;
+    background-color: darkseagreen;
+}
+
+.resaltado{
+    font-family: cursive ;
+    border: 2px solid black;
+    background-color: rgb(205, 189, 243);
+}
+
+#politico{
+    height: 300px;
+    width: 300px;
+    margin-left: 25%;
+    border: 5px solid red;
+}
+
+#messi{
+    height: 300px;
+    width: 300px;
+    margin-left: 25%;
+    border: 5px solid red;
+}
+
+.deporte, .politica{
+    padding-bottom: 0px;
+    border: 5px solid rgb(0, 132, 255);
+    padding: 0 10px;
+}
+
+.division{
+    border:5px solid black; 
+    font-size: 140%;
+}
+
+
+

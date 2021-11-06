@@ -1,0 +1,20 @@
+.tercer-parrafo{
+    font-style: oblique;
+    color: rgb(0, 136, 255);
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    
+}
+.division{
+    border:5px solid black; ;
+    font-size: 140%;
+}
+ul{
+    border: 5px solid rgb(208, 255, 0);
+    background-color: red;
+    margin: 5px;
+    padding-left: 0px;
+}

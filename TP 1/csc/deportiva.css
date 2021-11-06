@@ -1,0 +1,35 @@
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.link{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    
+}
+.link a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    background-color: blue;
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    
+}
+.division{
+    border:5px solid black; ;
+    font-size: 140%;
+}
+ul{
+    border: 5px solid rgb(208, 255, 0);
+    background-color: red;
+    margin: 5px;
+    padding-left: 0px;
+}
