@@ -1,9 +1,0 @@
-Inicie el git clonando el repositorio, con el comando "Cd" me moví a la carpeta que se creo automáticamente, luego empecé con los git add y git commit 
-(uno de los commits tenia una palabra mal escrita entonces lo modifique con ammend).
-Los archivos estaban desparramados dentro de la carpeta "TpEspecialTIO"  entonces decidí crear la carpeta "css" para almacenarlos.
-Ya dentro de la carpeta css cambie el nombre de un archivo y procedí a realizar un push.
-Cree un nuevo branch llamado "nuevoarchivo" para hacer una prueba, con el editor de texto "nano" cree un archivo .css llamado "nuevo.css", fusioné (merge)
-"nuevoarchivo" con el "master" y luego elimine la nueva rama, cambie el nombre de el archivo "nuevo.css" a "nuevo archivo.css" pero me arrepentí y 
-elimine la confirmación (reset). Decidí pasar el archivo "nuevo.css" a la carpeta "css" pero no me pareció conveniente ya que era una prueba y el contendio 
-no era similar, así que retire la modificación en el area de preparacion (restore). Termine por borrar el archivo.  Ahora estoy agregando el informe a el repositorio de github
-y le voy a modificar el nombre para utilizar "checkout --"
